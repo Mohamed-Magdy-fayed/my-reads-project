@@ -10,9 +10,13 @@ const search = ({ toUpdateBooks }) => {
     const [query, setQuery] = useState('')
     const [searchResults, setSearchResults] = useState([])
     const getSearchResults = (query) => {
+        if (query === '') {
+            setSearchResults([])
+        }
         BooksAPI.search(query)
             .then((books) => {
                 if (books && books.error) {
+                    setSearchResults([])
                     return
                 }
                 books && books.forEach((book) => {
