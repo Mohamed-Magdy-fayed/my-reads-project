@@ -10,7 +10,7 @@ class BooksApp extends React.Component {
     books: [],
   }
 
-  componentDidMount() {
+  updateBooks = () => {
     BooksAPI.getAll()
       .then((books) => {
         this.setState(() => ({
@@ -18,11 +18,10 @@ class BooksApp extends React.Component {
         }))
         console.log(this.state.books);
       })
-
   }
 
-  showSearchPage = () => {
-    this.setState({ inSearch: false })
+  componentDidMount() {
+    this.updateBooks()
   }
 
   render() {
@@ -30,7 +29,7 @@ class BooksApp extends React.Component {
       <div className="app">
         <Routes>
           <Route path='/search' element={(
-            <Search showSearchPage={this.showSearchPage} />
+            <Search toUpdateBooks={this.updateBooks} />
           )} />
 
           <Route exact path='/' element={(
@@ -40,9 +39,9 @@ class BooksApp extends React.Component {
               </div>
               <div className="list-books-content">
                 <div>
-                  <Shelf shelfName='currentlyReading' name='Currently Reading' books={this.state.books} />
-                  <Shelf shelfName='wantToRead' name='Want To Read' books={this.state.books} />
-                  <Shelf shelfName='read' name='Read' books={this.state.books} />
+                  <Shelf toUpdateBooks={this.updateBooks} shelfName='currentlyReading' name='Currently Reading' books={this.state.books} />
+                  <Shelf toUpdateBooks={this.updateBooks} shelfName='wantToRead' name='Want To Read' books={this.state.books} />
+                  <Shelf toUpdateBooks={this.updateBooks} shelfName='read' name='Read' books={this.state.books} />
                 </div>
               </div>
               <div className="open-search">

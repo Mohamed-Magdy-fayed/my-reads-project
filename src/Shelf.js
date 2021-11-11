@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Book from './Book'
 
-const shelf = ({ shelfName, name, books }) => {
+const shelf = ({ shelfName, name, books, toUpdateBooks }) => {
 
     let shelfBooks = books.filter(book => book.shelf === shelfName)
 
@@ -13,7 +13,7 @@ const shelf = ({ shelfName, name, books }) => {
                 <ol className="books-grid">
                     {shelfBooks.map(book => (
                         <li key={book.id}>
-                            <Book book={book} />
+                            <Book toUpdateBooks={toUpdateBooks} book={book} />
                         </li>
                     ))}
                 </ol>
