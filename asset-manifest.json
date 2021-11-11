@@ -1,14 +1,14 @@
 {
   "main.css": "/my-reads-project/static/css/main.e82b2be6.chunk.css",
-  "main.js": "/my-reads-project/static/js/main.5076817e.chunk.js",
-  "main.js.map": "/my-reads-project/static/js/main.5076817e.chunk.js.map",
-  "static/js/1.324386e4.chunk.js": "/my-reads-project/static/js/1.324386e4.chunk.js",
-  "static/js/1.324386e4.chunk.js.map": "/my-reads-project/static/js/1.324386e4.chunk.js.map",
+  "main.js": "/my-reads-project/static/js/main.4de6ded9.chunk.js",
+  "main.js.map": "/my-reads-project/static/js/main.4de6ded9.chunk.js.map",
+  "static/js/1.35963109.chunk.js": "/my-reads-project/static/js/1.35963109.chunk.js",
+  "static/js/1.35963109.chunk.js.map": "/my-reads-project/static/js/1.35963109.chunk.js.map",
   "runtime~main.js": "/my-reads-project/static/js/runtime~main.261dddc8.js",
   "runtime~main.js.map": "/my-reads-project/static/js/runtime~main.261dddc8.js.map",
   "static/media/App.css": "/my-reads-project/static/media/arrow-drop-down.9d4e3f36.svg",
   "static/css/main.e82b2be6.chunk.css.map": "/my-reads-project/static/css/main.e82b2be6.chunk.css.map",
   "index.html": "/my-reads-project/index.html",
-  "precache-manifest.0de31ea08ff854271f448e16ac475832.js": "/my-reads-project/precache-manifest.0de31ea08ff854271f448e16ac475832.js",
+  "precache-manifest.68bacfbb2697fead2e92dc262112dc61.js": "/my-reads-project/precache-manifest.68bacfbb2697fead2e92dc262112dc61.js",
   "service-worker.js": "/my-reads-project/service-worker.js"
 }

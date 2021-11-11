@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5076817e17eca1c5769a",
+    "revision": "4de6ded9d03a4c11b9ef",
     "url": "/my-reads-project/static/css/main.e82b2be6.chunk.css"
   },
   {
-    "revision": "5076817e17eca1c5769a",
-    "url": "/my-reads-project/static/js/main.5076817e.chunk.js"
+    "revision": "4de6ded9d03a4c11b9ef",
+    "url": "/my-reads-project/static/js/main.4de6ded9.chunk.js"
   },
   {
-    "revision": "324386e4b20aa3efa927",
-    "url": "/my-reads-project/static/js/1.324386e4.chunk.js"
+    "revision": "359631093f99c712067c",
+    "url": "/my-reads-project/static/js/1.35963109.chunk.js"
   },
   {
     "revision": "261dddc89c7e9e11644e",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/my-reads-project/static/media/arrow-drop-down.9d4e3f36.svg"
   },
   {
-    "revision": "1d6d6cd28a4aec3cbe6410f616405cb5",
+    "revision": "961ea0b5198dfe669ea5a0ce37ed4d9c",
     "url": "/my-reads-project/index.html"
   }
 ];
