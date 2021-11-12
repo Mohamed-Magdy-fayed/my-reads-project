@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import debounce from 'lodash.debounce'
 import * as BooksAPI from './BooksAPI'
 import Book from './Book'
-
+import useDebounce from './UseDebounce'
 
 const search = ({ toUpdateBooks }) => {
 
@@ -10,6 +11,7 @@ const search = ({ toUpdateBooks }) => {
     const [query, setQuery] = useState('')
     const [searchResults, setSearchResults] = useState([])
     const getSearchResults = (query) => {
+        console.log(query);
         if (query === '') {
             setSearchResults([])
         }
@@ -29,10 +31,7 @@ const search = ({ toUpdateBooks }) => {
             })
     }
 
-    useEffect(() => {
-        getSearchResults(query)
-    }, [query])
-
+    useDebounce(() => getSearchResults(query), 500, [query])
 
     return (
         <div className="search-books">

@@ -5,10 +5,10 @@ import Selector from './Selector'
 const book = ({ book, toUpdateBooks, isInSearch }) => {
 
     return (
-        <div class="book-frame">
+        <div className="book-frame">
             <div className="book">
                 <div className="book-top">
-                    <a href={book.infoLink} target='_blank'>
+                    <a href={book.infoLink} target='_blank' rel='noopener noreferrer'>
                         <div
                             className="book-cover"
                             style={{
@@ -19,7 +19,7 @@ const book = ({ book, toUpdateBooks, isInSearch }) => {
                     </a>
                     <Selector isInSearch={isInSearch} toUpdateBooks={toUpdateBooks} book={book} />
                 </div>
-                <div class="book-info">
+                <div className="book-info">
                     <div className="book-title">{book.title}</div>
                     <div className="book-authors">{book.authors && book.authors[0]} <br /> {book.authors && book.authors[1]}</div>
                 </div>
