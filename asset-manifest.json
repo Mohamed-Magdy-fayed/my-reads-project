@@ -1,14 +1,14 @@
 {
   "main.css": "/my-reads-project/static/css/main.e43dfe22.chunk.css",
-  "main.js": "/my-reads-project/static/js/main.7d4c6c6b.chunk.js",
-  "main.js.map": "/my-reads-project/static/js/main.7d4c6c6b.chunk.js.map",
-  "static/js/1.5794d210.chunk.js": "/my-reads-project/static/js/1.5794d210.chunk.js",
-  "static/js/1.5794d210.chunk.js.map": "/my-reads-project/static/js/1.5794d210.chunk.js.map",
+  "main.js": "/my-reads-project/static/js/main.265ccd5a.chunk.js",
+  "main.js.map": "/my-reads-project/static/js/main.265ccd5a.chunk.js.map",
+  "static/js/1.2e3f5f78.chunk.js": "/my-reads-project/static/js/1.2e3f5f78.chunk.js",
+  "static/js/1.2e3f5f78.chunk.js.map": "/my-reads-project/static/js/1.2e3f5f78.chunk.js.map",
   "runtime~main.js": "/my-reads-project/static/js/runtime~main.261dddc8.js",
   "runtime~main.js.map": "/my-reads-project/static/js/runtime~main.261dddc8.js.map",
-  "static/media/App.css": "/my-reads-project/static/media/add.75d390e5.svg",
+  "static/media/App.css": "/my-reads-project/static/media/arrow-drop-down.9d4e3f36.svg",
   "static/css/main.e43dfe22.chunk.css.map": "/my-reads-project/static/css/main.e43dfe22.chunk.css.map",
   "index.html": "/my-reads-project/index.html",
-  "precache-manifest.c44206f94e24a8dfb6c6b2bce4eff7fa.js": "/my-reads-project/precache-manifest.c44206f94e24a8dfb6c6b2bce4eff7fa.js",
+  "precache-manifest.ac72fcb77019d1d2f9c150d9afa68f9a.js": "/my-reads-project/precache-manifest.ac72fcb77019d1d2f9c150d9afa68f9a.js",
   "service-worker.js": "/my-reads-project/service-worker.js"
 }
